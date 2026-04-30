@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Info AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="https://img.icons8.com/ios-filled/50/00ff00/artificial-intelligence.png" alt="Tech-Info Logo">
+            <span>Tech-Info AI</span>
+        </div>
+        <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>Online</span>
+        </div>
+    </div>
+    
+    <div class="chat-container">
+        <div class="chat-history" id="chatHistory">
+            <div class="welcome-message">
+                <p>Welcome to Tech-Info AI! I'm your technology assistant.</p>
+                <p>You can ask me about:</p>
+                <ul>
+                    <li>Latest tech news and innovations</li>
+                    <li>Programming and software development</li>
+                    <li>Artificial Intelligence and Machine Learning</li>
+                    <li>New gadgets and product releases</li>
+                    <li>Tech company updates and trends</li>
+                </ul>
+                <p style="margin-top: 15px; font-size: 0.9em; color: #aaa;">
+                    Try saying "Hello" or ask something like "What's new in AI?" or 
+                    "Explain blockchain technology"
+                </p>
+            </div>
+        </div>
+        <!-- Add this near your chat input area in index.html -->
+        <div class="chat-input-area">
+            <button id="voiceButton" class="voice-button" title="Voice Input">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <input type="text" id="messageInput" placeholder="Ask about tech news...">
+            <div class="character-counter" id="characterCounter">0/150</div>
+            <button id="sendButton" title="Send Message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+            <button id="speakerButton" class="voice-button" title="Toggle Speech Output">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
