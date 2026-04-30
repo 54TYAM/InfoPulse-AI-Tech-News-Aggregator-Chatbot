@@ -2,7 +2,7 @@
 
 An AI-powered chatbot built using Python that aggregates, summarizes, and delivers the latest technology news in real time through an interactive conversational interface.
 
-<img width="1536" height="1024" alt="Thumbnail of InfoPulse AI GitHub" src="https://github.com/user-attachments/assets/tech-news-thumbnail.png" />
+<img width="1536" height="1024" alt="Thumbnail of InfoPulse AI GitHub" src="https://github.com/user-attachments/assets/e421b45f-4b39-4e57-86ed-7ebe3c5c711b" />
 
 ## 🧠 Tech Stack
 - Python
